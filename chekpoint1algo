@@ -1,0 +1,27 @@
+ALGORITHM Checkpoint4
+VAR
+    caractere := INTEGER
+    mot := INTEGER
+    voyelle :=INTEGER
+    phrase := STRING
+    c:=CHAR
+    i,j:=INTEGER
+BEGIN
+
+    if(i=0; c <> '.';i++)
+    read(c)
+     phrase:=phrase+c
+        if(j=0;c = ' ';j++)
+            mot:= j+1
+            else
+            mot:=0 
+
+            if(x=0;c:= 'a' or 'e'or 'i' or 'o' or 'u' or 'y';x++)
+                voyelle=x+1
+                else
+                voyelle=0
+    caractere=i+1
+    else
+    caractere=0
+
+END
